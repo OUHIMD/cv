@@ -1,0 +1,64 @@
+.page{
+	width : 1000x;
+	margin : auto;
+	font-size : 18px;
+	font-family : 'Source sans Pro',Calibre,Tahoma,sans-serif;
+	background-color : #FFFFFC;
+
+}
+
+h1{
+	text-align:justify;
+}
+
+#profil {
+	font-size: 30px;
+	color: #585858;
+	text-transform : uppercase;
+	margin-bottom : 30px;
+}
+
+.photo{
+	float :center-right;
+}
+
+}
+.perso{
+	height : 250px; 
+	float : left;
+	font-size : 28px;
+}
+
+div.perso{
+	text-align:center-left;
+}
+
+.section{
+	margin-bottom : 50px;
+	text-align : justify;
+}
+
+div.section{
+	margin-left : 1000px;
+	text-align : justify;
+}
+
+strong{
+	font-size : 23px; 
+}
+
+.thematique{
+	font-size : 32 px; 
+	color: #A00204; 
+	text-transform : uppercase; 
+	margin : left; 
+}
+ .type{
+	font-size : 22px;
+ }
+ 
+.titre{
+	font-weight : bold; 
+	font-size : 22px;
+	color: #00000f; 
+}
