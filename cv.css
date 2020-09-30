@@ -1,58 +1,136 @@
-/* 
-    Creée le : 9 mars 2018, 10:20:59
-    Auteur     : Rue de l'info
-*/
-/* tous écrans PC d’au moins 400px */
-@media screen and (min-width:400px){
- 
-    /* titre et bloc main à gauche */
-    body>header, main{
-        display: block;
-        float:left;
-        width:73% ; /* 750px/1026px */
-    }
- 
-    /* bloc photo + adresse  et divers */
-    #civil, #divers {
-        float:right;
-        width: 24%; /*250px/1026 ;*/
-        background-color: blue;
-        color:white;
-        padding: 0.5em  0.8% ; /*8px/16px 8px/1026px;*/
-    }
- 
-    /* photo identité */
-    #civil>img {
-        display: block;
-        width:95%;
-        margin:auto;
-        border: 3px solid white;
-        border-radius: 5px;
-    }
- 
-    /* pas de triangles pour détails à la demande */
-    #expe h1>img, #divers h2>img {
-        display:none;
-    }
+body{ 
+	
+	margin : auto;
+	font-size : 16px;
+	font-family : 'Source sans Pro', Calibri, Tahoma, sons-serfi;
+	background-color: #F0FFF0
 }
- 
-/* grand écran */
-@media screen and (min-width:1050px){
-    body{
-        font-size: 16px;
-    }
+
+footer
+{
+	font-size : 16px;
+	font-family : 'Source sans Pro', Calibri, Tahoma, sons-serfi;
+	position: center;
 }
- 
-/* écran std */
-@media screen and (min-width:640px) and (max-width:1049px){
-    body{
-        font-size: 14px;
-    }
+
+h1
+{
+
+	color: #3388BB;
+	
 }
- 
-/* petit écran et tablettes */
-@media screen and (min-width:400px) and (max-width:639px){
-    body{
-        font-size: 12px;
-    }
+
+h2
+{
+	font-size: 1.4em;
+	color: #3388BB;
+	text-transform : uppercase;
+}
+
+h3
+{
+	font-size: 1.2em;
+	text-transform : uppercase;
+	
+}
+
+h4
+{
+	font-size: 1.2em;
+	text-transform : uppercase;
+	
+}
+
+table
+{
+	width : 780px
+	background-color: #E6E6FA
+	
+}
+
+tr
+{
+	background-color: #E6E6FA
+}
+td
+{
+	background-color: #E6E6FA
+	
+}
+
+#Ingénieur
+{
+	background-color: #E6E6FA
+
+}
+
+#recherche
+{
+	font-size: 1.2em;
+	line-height: 10%
+
+}
+
+.center {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+}
+
+.genaral_info
+{
+	text-align: center;
+	line-height: 80%
+}
+
+#id
+{
+
+}
+
+.contenu_fomation
+{
+	text-align: justify;
+
+}
+
+
+#tete
+{
+	text-align: center;
+	line-height: 80%
+}
+
+#LANGUES
+{
+	font-size: 1.4em;
+	color: #3388BB;
+	text-transform : uppercase;
+	line-height: 10%
+}
+
+#COMPETENCES
+{
+	font-size: 1.4em;
+	color: #3388BB;
+	text-transform : uppercase;
+	line-height: 20%
+}
+
+#compétences
+{
+	
+}
+
+#INTERET
+{
+	font-size: 1.4em;
+	color: #3388BB;
+	text-transform : uppercase;
+	line-height: 10%
+}
+
+#FORMATION
+{
+	line-height: 30%
 }
